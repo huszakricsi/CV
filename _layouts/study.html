@@ -1,0 +1,39 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div style="margin: 20px 0;">
+              <p><a href="{{ site.baseurl }}/">← Home</a> | <a href="{{ site.baseurl }}/studies/">Studies Overview</a></p>
+            </div>
+            
+            {{ content }}
+            
+            <div style="margin-top: 40px;">
+              <p><a href="{{ site.baseurl }}/">← Return to CV</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+  {% if site.darkmode == false %}
+    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  {% endif %}
+</body>
+
+</html>

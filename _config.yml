@@ -1,0 +1,167 @@
+# Content configuration version (required by theme)
+version: 2
+
+title: "CV"
+name: "Richárd Huszák"
+role: "Ruby on Rails Developer"
+location: "Hungary (Veszprém) • Open to remote, would consider relocation"
+email: "huszakricsi@gmail.com"
+
+url: "https://huszakricsi.github.io"
+baseurl: "/CV"
+
+# Theme
+remote_theme: sproogen/modern-resume-theme@v2.0.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Appearance
+darkmode: false
+github_username: "huszakricsi"
+linkedin_username: "richardhuszak"
+
+# Top summary
+about_content: >
+  Ruby on Rails developer with 8 years of experience (6+ in Rails), passionate about clean architecture
+  and maintainable back-ends. Comfortable leading features end-to-end, conducting code reviews,
+  and mentoring teammates. Creator of [Nissh](https://nissh.gg) — an ultra-light, custom-fit gaming mouse (30g).
+
+# ------------------ HOMEPAGE SECTIONS ------------------
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: "Senior Software Engineer"
+        sub_title: "Starling Enterprises Kft."
+        caption: "Dec 2024 — Present · Budapest, HU"
+        description: |
+          - Delivered full-stack features with **Rails + React (Vite)**, improving customer workflows.
+          - Optimized PostgreSQL schemas & queries → reduced query times by ~30%.
+          - Implemented policy-based authorization (Pundit-style) to enforce secure access control.
+          - Built and integrated REST APIs, consumed via Axios in React frontend.
+          - Stack: **Rails**, **React**, **PostgreSQL**, **TypeScript/JS**, **Git**.
+
+      - layout: left
+        title: "Senior Ruby on Rails Engineer"
+        sub_title: "Valutico"
+        caption: "Jun 2023 — Oct 2024 · Vienna, AT"
+        description: |
+          - Improved reliability of valuation platform by strengthening backend & release processes.
+          - Automated testing and monitoring pipelines → fewer production regressions.
+          - Championed developer enablement initiatives, shortening onboarding time for new hires.
+          - Stack: **Rails**, **PostgreSQL**, **GraphQL**.
+
+      - layout: left
+        title: "Senior Ruby on Rails Developer"
+        sub_title: "Unit4"
+        caption: "Oct 2022 — Jan 2023 · Granada, ES"
+        description: |
+          - Eliminated N+1 queries and refactored SQL/ActiveRecord → boosted API performance.
+          - Applied RuboCop-driven refactors to enforce clean code.
+          - Reduced frontend bug count by resolving Ember.js issues and removing unused features.
+          - Stack: **Rails**, **MySQL**, **EmberJS**, **JSON:API**.
+
+      - layout: left
+        title: "Full-stack Ruby on Rails Developer"
+        sub_title: "BV-Technology Ltd."
+        caption: "Apr 2021 — Sep 2022 · Budapest, HU"
+        description: |
+          - Built new CMS features in Rails and React, used by 10k+ end users.
+          - Enforced CI/CD and code review best practices → improved delivery speed and quality.
+          - Stack: **Rails**, **MySQL**, **React**, **JSON:API**.
+
+      - layout: left
+        title: "Full-stack Ruby on Rails Developer"
+        sub_title: "E-Jogsegéd Ltd."
+        caption: "Jan 2019 — Apr 2021 · Budapest, HU"
+        description: |
+          - Led a 3-person dev team: task coordination, mentoring, reviews, deployments.
+          - Took ownership of production reliability → resolved critical issues with minimal downtime.
+          - Stack: **Rails**, **MySQL**, **Vue**, **Vuex**, **JSON:API**.
+
+      - layout: left
+        title: "Engineering Information Technology"
+        sub_title: "BOSCH (via BEKO)"
+        caption: "Aug 2017 — Jan 2019 · Budapest, HU"
+        description: |
+          - Automated HIL test systems with **C#** and **Jenkins**, cutting manual testing effort.
+          - Supported DevOps workflows with Python/Flask and C++/CMake/LLVM tooling.
+          - Stack: **C#/.NET**, **Jenkins**, **Python/Flask**, **C++**, **CMake**.
+
+      - layout: left
+        title: "Programming Instructor"
+        sub_title: "Athéné High School & Logiscool"
+        caption: "2016 – 2017 · Budapest, HU"
+        description: |
+          - Taught programming (C#, Scratch, Java) to high school and younger students.
+          - Introduced OOP, data structures, and event-driven programming concepts.
+          - Built mentoring and coaching skills later applied in dev team leadership.
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: "Nissh One Mouse"
+        sub_title: "Nissh.gg"
+        link: https://nissh.gg
+        link_text: Try the Nissh Experience →
+        description: |
+          Designed and prototyped the Nissh One, a 30g custom-fit gaming mouse with optimized finger support and weight distribution.
+          Developed an online configurator [nissh.gg/one/build](https://nissh.gg/one/build) enabling user-driven personalization.
+
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: "Core"
+        description: |
+          **Ruby**, **Rails**, **PostgreSQL**, **Sidekiq**, **Redis**, **RSpec**, **GitHub Actions**
+      - layout: left
+        title: "Frontend"
+        description: |
+          **React**, **Vue**, **TypeScript**, **ES6+**, **HTML5**, **CSS3**
+      - layout: left
+        title: "Architecture & Practices"
+        description: |
+          Clean architecture (service objects / POROs), policy-based authorization (Pundit), SOLID/OOP, background jobs, caching, refactoring
+      - layout: left
+        title: "DevOps"
+        description: |
+          CI/CD pipelines, containerized dev (Docker), environment configs, logging/monitoring basics
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: "Óbuda University — BSc"
+        sub_title: "Engineering Information Technology"
+        caption: "2014 — 2022"
+        description: |
+          Completed majority of BSc curriculum (missing 4 exams for degree).
+          **Details:** [University](/CV/studies/university/)
+      - layout: left
+        title: "High School — Neumann János"
+        sub_title: "Advanced informatics/programming"
+        description: |
+          C# (2y), C++ (2y), database basics, HTML/CSS.
+          **Details:** [High School](/CV/studies/high_school/)
+      - layout: left
+        title: "Courses"
+        description: |
+          **Udemy** / **LinkedIn Learning** / **Webler Educational Studio**  
+          **Details:** [Udemy](/CV/studies/udemy/),
+          [LinkedIn Learning](/CV/studies/linkedin_learning/),
+          [Educational Studio](/CV/studies/educational_studios/)
+
+  - title: Contact
+    layout: list
+    content:
+      - layout: left
+        title: "Get in touch"
+        description: |
+          - **Email:** [huszakricsi@gmail.com](mailto:huszakricsi@gmail.com)
+          - **LinkedIn:** [/in/richardhuszak](https://www.linkedin.com/in/richardhuszak/)
+          - **GitHub:** [@huszakricsi](https://github.com/huszakricsi)
+          - **Phone:** [+36306373903](tel:+36306373903)
