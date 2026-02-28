@@ -23,7 +23,7 @@ linkedin_username: "richardhuszak"
 
 # Top summary
 about_content: >
-  Ruby on Rails developer with 8 years of experience (6+ in Rails), passionate about clean architecture
+  Software developer with 8+ years of experience, 7+ in Ruby on Rails, passionate about clean architecture
   and maintainable back-ends. Comfortable leading features end-to-end, conducting code reviews,
   and mentoring teammates. Creator of [Nissh](https://nissh.gg) — an ultra-light, custom-fit gaming mouse (30g).
 
@@ -33,9 +33,21 @@ content:
     layout: list
     content:
       - layout: left
+        title: "Senior Ruby Developer"
+        sub_title: "Distribusion Technologies GmbH"
+        caption: "Oct 2025 — Present · Berlin, DE (Remote)"
+        description: |
+          - Delivering high-quality Ruby code within high-scale, high-load systems in the ground transportation industry.
+          - Developing and maintaining a large fleet of microservices.
+          - Tackling performance bottlenecks and driving optimization initiatives.
+          - Contributing to system architectural decisions within the team.
+          - Building internal tools and libraries; improving test coverage and deliverable quality.
+          - Stack: **Ruby**, **Rails**, **Grape**, **JSON:API**, **Microservices**.
+
+      - layout: left
         title: "Senior Software Engineer"
         sub_title: "Starling Enterprises Kft."
-        caption: "Dec 2024 — Present · Budapest, HU"
+        caption: "Dec 2024 — Sep 2025 · Budapest, HU"
         description: |
           - Delivered full-stack features with **Rails + React (Vite)**, improving customer workflows.
           - Optimized PostgreSQL schemas & queries → reduced query times by ~30%.
