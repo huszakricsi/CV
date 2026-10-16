@@ -37,12 +37,11 @@ content:
         sub_title: "Distribusion Technologies GmbH"
         caption: "Oct 2025 — Present · Berlin, DE (Remote)"
         description: |
-          - Delivering high-quality Ruby code within high-scale, high-load systems in the ground transportation industry.
-          - Developing and maintaining a large fleet of microservices.
-          - Tackling performance bottlenecks and driving optimization initiatives.
-          - Contributing to system architectural decisions within the team.
-          - Building internal tools and libraries; improving test coverage and deliverable quality.
-          - Stack: **Ruby**, **Rails**, **Grape**, **JSON:API**, **Microservices**.
+          - Work on the Ruby back end of a B2B platform that connects bus, rail and ferry operators with online retailers, under high load.
+          - Develop and maintain a large fleet of microservices: **Grape** for the smaller domains, **Rails** for the bigger ones.
+          - Tackle performance bottlenecks and take part in the team's architecture decisions.
+          - Build internal tools and libraries; raise test coverage and the quality of deliverables.
+          - Stack: **Ruby**, **Rails**, **Grape**.
 
       - layout: left
         title: "Senior Software Engineer"
